@@ -14,7 +14,9 @@ namespace QuanlyWPF.ViewModel
         public test()
         {
             mesText = new RelayCommand<object>(c =>true, c => {                
-                MessageBox.Show("Bạn đã nhập");
+                //MessageBox.Show("Bạn đã nhập");
+                Login a = new Login();
+                a.Show();
             });
         }
         public ICommand mesText { get; set; }
