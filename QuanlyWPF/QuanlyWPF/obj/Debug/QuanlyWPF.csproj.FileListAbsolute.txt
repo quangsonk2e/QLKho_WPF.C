@@ -73,7 +73,6 @@ G:\Soft\dotnet\wpf\QLKho_WPF.C\QuanlyWPF\QuanlyWPF\bin\Debug\MaterialDesignTheme
 G:\Soft\dotnet\wpf\QLKho_WPF.C\QuanlyWPF\QuanlyWPF\bin\Debug\MaterialDesignColors.pdb
 G:\Soft\dotnet\wpf\QLKho_WPF.C\QuanlyWPF\QuanlyWPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
 G:\Soft\dotnet\wpf\QLKho_WPF.C\QuanlyWPF\QuanlyWPF\bin\Debug\MaterialDesignThemes.Wpf.xml
-G:\Soft\dotnet\wpf\QLKho_WPF.C\QuanlyWPF\QuanlyWPF\obj\Debug\QuanlyWPF.csprojResolveAssemblyReference.cache
 G:\Soft\dotnet\wpf\QLKho_WPF.C\QuanlyWPF\QuanlyWPF\obj\Debug\App.baml
 G:\Soft\dotnet\wpf\QLKho_WPF.C\QuanlyWPF\QuanlyWPF\obj\Debug\Login.g.cs
 G:\Soft\dotnet\wpf\QLKho_WPF.C\QuanlyWPF\QuanlyWPF\obj\Debug\MainWindow.g.cs

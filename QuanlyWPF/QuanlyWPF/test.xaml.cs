@@ -15,23 +15,13 @@ using System.Windows.Shapes;
 namespace QuanlyWPF
 {
     /// <summary>
-    /// Interaction logic for Login.xaml
+    /// Interaction logic for test.xaml
     /// </summary>
-    public partial class Login : Window
+    public partial class test : Window
     {
-        public Login()
+        public test()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-          
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-           
         }
     }
 }

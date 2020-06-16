@@ -14,9 +14,12 @@
         WindowStartupLocation="CenterScreen"
         WindowStyle="None"
         ResizeMode="NoResize"
-        Title="Login" Height="320.925" Width="300">
-    
-       <Grid Background="Purple">
+        Title="Login" Height="320.925" Width="300"
+        x:Name="Vlogin">
+    <Window.DataContext>
+        <vm:dangnhap x:Name="dangnhap"/>
+    </Window.DataContext>
+    <Grid Background="Purple">
         <Border CornerRadius="10" Margin="10 20" Background="White">
             <StackPanel Orientation="Vertical">
                 
@@ -36,7 +39,7 @@
                       
                       Style="{StaticResource MaterialDesignFloatingHintPasswordBox}" />
                 <StackPanel Orientation="Horizontal" Margin="10 20">
-                    <Button Content="Đăng nhập" Margin="20 0" Click="Button_Click_1"></Button>
+                    <Button Content="Đăng nhập" Margin="20 0" Command="{Binding checklogin}" CommandParameter="{Binding ElementName=Vlogin}"></Button>
                     <Button Content="  Thoát  " Margin="10 0" Click="Button_Click"></Button>
                 </StackPanel>
             </StackPanel>
