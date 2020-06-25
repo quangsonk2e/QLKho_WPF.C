@@ -23,5 +23,22 @@ namespace QuanlyWPF.ViewModel
             });
         }
         public ICommand checklogin { get; set; }
+        private ICommand _leftButtonDownCommand;
+        public ICommand leftButtonDownCommand
+        {
+            get
+            {
+                return _leftButtonDownCommand ?? (_leftButtonDownCommand = new RelayCommand<object>(x=>true,
+                   x =>
+                   {
+                       DoStuff();
+                   }));
+            }
+        }
+
+        private void DoStuff()
+        {
+            MessageBox.Show("Responding to left mouse button click event...");
+        }
     }
 }
